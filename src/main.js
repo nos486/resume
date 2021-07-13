@@ -4,6 +4,7 @@ import App from './App.vue'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/js/all'
+import './assets/colors.min.css'
 
 Vue.config.productionTip = false
 

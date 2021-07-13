@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="@/assets/avatar.jpeg" class="avatar shadow" :style="{width:size,height:size}">
+        <img src="@/assets/avatar.jpeg" class="avatar" :style="{width:size,height:size}">
     </div>
 </template>
 
