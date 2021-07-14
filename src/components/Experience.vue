@@ -1,8 +1,8 @@
 <template>
     <item title="Experience">
         <div>
-            <SubItem title="Freelance programmer" icon="fa fa-file-code">
-                <b>Freelance</b> Mar 2020 – Present
+            <SubItem title="Freelance developer" icon="fa fa-file-code">
+                2016 – Present
             </SubItem>
 
             <SubItem title="Full-Stack developer" icon="fa fa-code">

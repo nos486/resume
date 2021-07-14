@@ -2,7 +2,7 @@
     <div class="mb-2">
         <h6><i :class="icon"></i> <b>{{title}}</b></h6>
         <div class="d-flex justify-content-start flex-wrap">
-            <div v-for="(item,index) in list" :key="index" class="bg-orange text-white rounded pt-1 pb-1 p-2 me-1 mb-1">{{ item }}</div>
+            <div v-for="(item,index) in list" :key="index" :class="'bg-'+$store.getters.mainColor" class=" text-white rounded pt-1 pb-1 p-2 me-1 mb-1">{{ item }}</div>
         </div>
 
     </div>

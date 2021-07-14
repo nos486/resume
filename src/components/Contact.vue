@@ -1,21 +1,12 @@
 <template>
     <div>
         <item title="Contact">
-            <div class="text-secondary">
-                <i class="fa fa-map-marked-alt"></i>  Tehran, Iran
-            </div>
-            <div class="text-secondary">
-                <i class="fa fa-phone"></i>  +98 912 8895140
-            </div>
-            <div class="text-secondary">
-                <i class="fab fa-google"></i> Nos486@gmail.com
-            </div>
-            <div class="text-secondary">
-                <i class="fab fa-github"></i> Github.com/nos486
-            </div>
-            <div class="text-secondary">
-                <i class="fab fa-linkedin"></i> Linkedin.com/in/nos486
-            </div>
+
+            <IconText icon="fa fa-map-marked-alt" text="Tehran, Iran"></IconText>
+            <IconText icon="fa fa-phone" text="+98 912 8895140" href="tel: +989128895140"></IconText>
+            <IconText icon="fab fa-google" text="Nos486@gmail.com" href="mailto: nos486@gmail.com"></IconText>
+            <IconText icon="fab fa-github" text="Github.com/nos486" href="https://github.com/nos486"></IconText>
+            <IconText icon="fab fa-linkedin" text="Linkedin.com/in/nos486" href="https://www.linkedin.com/in/nos486/"></IconText>
         </item>
 
     </div>
@@ -23,12 +14,11 @@
 
 <script>
 import Item from "@/components/UI/Item";
+import IconText from "@/components/UI/IconText";
+
 export default {
     name: "Contact",
-    components: {Item}
+    components: {IconText, Item}
 }
 </script>
 
-<style scoped>
-
-</style>

@@ -1,20 +1,26 @@
 <template>
-    <div id="app" class="container-fluid container-lg">
+    <div id="app" class="container-fluid container-lg ">
         <div class="row">
             <div class="col-sm-6 col-md-5 col-xl-4 d-flex flex-column p-4 bg-grey lighten-8">
                 <div class="d-flex justify-content-center justify-content-sm-start">
-                    <User></User>
+                    <User/>
                 </div>
-                <Contact class="mt-3"></Contact>
-                <Skills class="mt-3"></Skills>
+                <Contact class="mt-5"/>
+                <Skills class="mt-4"/>
 
             </div>
-            <div class="col-sm-6 col-md-7 col-xl-8 container p-4 ">
-                <About></About>
-                <Experience class="mt-4"></Experience>
-                <Education class="mt-4"></Education>
-                <Licenses class="mt-4"></Licenses>
-                <Languages class="mt-4"></Languages>
+            <div class="col-sm-6 col-md-7 container p-4 ">
+                <About/>
+                <Experience class="mt-4"/>
+                <Education class="mt-4"/>
+                <Licenses class="mt-4"/>
+                <Languages class="mt-4"/>
+            </div>
+
+            <div class="d-none d-xl-flex flex-column align-items-center col-xl-1 bg-grey lighten-8 position-relative">
+                <div :class="'bg-'+$store.getters.mainColor" class="position-absolute h-100 start-0 lighten-8" style="width: 5px"></div>
+                <ResumeDownload class="mt-4"/>
+                <ShuffleColor class="mt-2"/>
             </div>
         </div>
 
@@ -32,10 +38,14 @@ import Skills from "@/components/Skills";
 import Licenses from "@/components/Licenses";
 import About from "@/components/About";
 import Languages from "@/components/Languages";
+import ResumeDownload from "@/components/ResumeDownload";
+import ShuffleColor from "@/components/ShuffleColor";
 
 export default {
     name: 'App',
     components: {
+        ShuffleColor,
+        ResumeDownload,
         Languages,
         About,
         Licenses,
@@ -49,6 +59,13 @@ export default {
         return {
         }
     },
+    mounted() {
+    },
+    methods :{
+
+    }
+
+
 }
 </script>
 

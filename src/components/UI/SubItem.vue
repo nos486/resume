@@ -1,6 +1,6 @@
 <template>
     <div class="mb-2">
-        <div class="orange-text darken-1" style="font-size: 13pt">
+        <div :class="$store.getters.mainColor+'-text'" class="darken-1" style="font-size: 13pt">
             <i :class="icon"></i> <b>{{ title }}</b>
         </div>
         <div class="text-secondary small mt-n2">

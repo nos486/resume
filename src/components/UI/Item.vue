@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h4 class="orange-text darken-4"><b>{{ title }}</b></h4>
+        <h4 :class="$store.getters.mainColor+'-text'" class="darken-4"><b>{{ title }}</b></h4>
         <div class="text-secondary">
             <slot></slot>
         </div>
