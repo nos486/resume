@@ -8,10 +8,13 @@
                 <i class="fa fa-phone"></i>  +98 912 8895140
             </div>
             <div class="text-secondary">
-                <i class="fa fa-envelope"></i> Nos486@gmail.com
+                <i class="fab fa-google"></i> Nos486@gmail.com
             </div>
             <div class="text-secondary">
-                <i class="fa fa-globe"></i> Github.com/nos486
+                <i class="fab fa-github"></i> Github.com/nos486
+            </div>
+            <div class="text-secondary">
+                <i class="fab fa-linkedin"></i> Linkedin.com/in/nos486
             </div>
         </item>
 
