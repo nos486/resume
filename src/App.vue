@@ -1,20 +1,19 @@
 <template>
-    <div id="app" class="container-fluid container-lg ">
+    <div id="app" class="container-fluid container-lg">
         <div class="row">
             <div class="col-sm-6 col-md-5 col-xl-4 d-flex flex-column p-4 bg-grey lighten-8">
-                <div class="d-flex justify-content-center justify-content-sm-start">
+                <div class="d-flex justify-content-center mt-4 ">
                     <User/>
                 </div>
                 <Contact class="mt-5"/>
-                <Skills class="mt-4"/>
-
+                <Skills class="mt-5"/>
+                <Languages class="mt-5 mb-5"/>
             </div>
             <div class="col-sm-6 col-md-7 container p-4 ">
-                <About/>
-                <Experience class="mt-4"/>
-                <Education class="mt-4"/>
-                <Licenses class="mt-4"/>
-                <Languages class="mt-4"/>
+                <About class="mt-5"/>
+                <Experience class="mt-5"/>
+                <Education class="mt-5"/>
+                <Licenses class="mt-5"/>
             </div>
 
             <div class="d-none d-xl-flex flex-column align-items-center col-xl-1 bg-grey lighten-8 position-relative">
@@ -64,9 +63,8 @@ export default {
     methods :{
 
     }
-
-
 }
+
 </script>
 
 <style>

@@ -1,7 +1,7 @@
 <template>
-    <div class="position-relative">
-        <Avatar src="@/assets/avatar.jpeg"></Avatar>
-        <div :class="$store.getters.mainColor+'-text'" class=" position-absolute end-0" style="margin-top: -4px">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <Avatar/>
+        <div :class="$store.getters.mainColor+'-text'" class="w-100 text-end" style="margin-bottom: -20px">
             SEP 1994
             <i class="fa fa-clock"></i>
         </div>
