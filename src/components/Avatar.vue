@@ -1,7 +1,7 @@
 <template>
     <div :style="{width:size,height:size}">
-        <img src="@/assets/avatar-2-1.png" class="avatar position-absolute" :style="{width:size,height:size}">
-        <img ref="avatarHead" src="@/assets/avatar-2-2.png" class="avatar position-absolute"
+        <img src="@/assets/avatar-3-1.png" class="avatar position-absolute" :style="{width:size,height:size}">
+        <img ref="avatarHead" src="@/assets/avatar-3-2.png" class="avatar position-absolute"
              :style="{width:size,height:size}">
     </div>
 </template>
@@ -12,22 +12,22 @@ export default {
     props: {
         size: {
             type: String,
-            default: "220px",
+            default: "230px",
         }
     },
     data :function(){
         return {
             colors: {
-                "red": -20,
-                "pink": -40,
+                "red": -40,
+                "pink": -60,
                 "purple": -90,
                 "indigo": -150,
-                "blue": -160,
+                "blue": -170,
                 "light-blue": -180,
                 "cyan": -190,
                 "green": -240,
                 "light-green": -280,
-                "amber": -340,
+                "amber": -350,
                 "orange": -360
             }
         }
